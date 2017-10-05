@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class firstBlock extends Component {
+class FirstBlock extends Component {
 
     render() {
         return (
@@ -29,4 +29,4 @@ class firstBlock extends Component {
     }
 }
 
-export default firstBlock;
+export default FirstBlock;

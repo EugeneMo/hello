@@ -1,14 +1,27 @@
 import React, {Component} from 'react';
-import scndBlock from './scndBlock';
-import firstBlock from './firstBlock';
+import ScndBlock from './scndBlock';
+import FirstBlock from './firstBlock';
+import Body from './Body';
+import Table from './Table';
+import Footer from './Footer';
+import './semantic.css';
 
 class App extends Component {
 
     render() {
         return (
-            <div>
-                <firstBlock />
+            <div className="pusher">
+                <div class="ui fixed menu">
+                    <div class="ui container">
+                        <FirstBlock />
+                            <ScndBlock />
+                            <Body />
+                            <Table />
+                            <Footer />
+                    </div>
+                </div>
             </div>
+
         );
     }
 }

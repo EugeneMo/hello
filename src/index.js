@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
+import './semantic.css';
 
 ReactDOM.render(
         <App />,
-  document.getElementById('topMenu')
+  document.getElementById('root')
 );

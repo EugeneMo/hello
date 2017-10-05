@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-class scndBlock extends Component {
+class ScndBlock extends Component {
     render () {
         return (
         <div className="ui main container">
@@ -34,7 +34,7 @@ class scndBlock extends Component {
     }
 }
 
-export default scndBlock;
+export default ScndBlock;
 
 
 
