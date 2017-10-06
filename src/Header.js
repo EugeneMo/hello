@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class FirstBlock extends Component {
+class Header extends Component {
 
     render() {
         return (
@@ -12,8 +12,8 @@ class FirstBlock extends Component {
                     <a href="/" className="item">
                     7Admin
                     </a>
-                    <div className="right menu">
 
+                    <div className="right menu">
                     <div className="ui simple dropdown item">
                         <i className="user icon"></i>&nbsp;Жека <i className="dropdown icon"></i>
                             <div className="menu">
@@ -29,4 +29,4 @@ class FirstBlock extends Component {
     }
 }
 
-export default FirstBlock;
+export default Header;

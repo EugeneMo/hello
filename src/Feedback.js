@@ -23,6 +23,11 @@ class Feedback extends Component {
                         </a>
                     </div>
                 </div>
+                <div className="seven wide column">
+                    <div className="ui large breadcrumb">
+                        <div className="active section">7admin</div>
+                    </div>
+                </div>
             </div>
         </div>
         );

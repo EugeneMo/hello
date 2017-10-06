@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Body extends Component {
+class Stata extends Component {
 
     render() {
         return (
@@ -33,7 +33,7 @@ class Body extends Component {
                                 <div className="value">1</div>
                                 <div className="label">Заказы</div>
                             </div>
-                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -42,4 +42,4 @@ class Body extends Component {
     }
 }
 
-export default Body;
+export default Stata;
